@@ -71,10 +71,6 @@ public class Triangle2D {
         double iX = (c2 - c1) / (m1 - m2);
         double iY = m1 * iX + c1;
 
-        System.out.println(iX + " " + iY);
-        System.out.println(c1 + " " + c2);
-        System.out.println(m1 + " " + m2);
-
         return true;
     }
 
